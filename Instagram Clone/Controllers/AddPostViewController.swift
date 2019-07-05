@@ -14,6 +14,8 @@ class AddPostViewController: UIViewController,UIImagePickerControllerDelegate,UI
     
     let db = Firestore.firestore()
     var postedID = ""
+    
+    
     @IBOutlet weak var profilePicture: UIImageView!
     @IBOutlet weak var shareNavigation: UINavigationBar!
     @IBOutlet weak var postTextView: UITextView!
@@ -23,17 +25,15 @@ class AddPostViewController: UIViewController,UIImagePickerControllerDelegate,UI
     override func viewDidLoad() {
         super.viewDidLoad()
         Fabric.sharedSDK().debug = true
-        profilePicture.layer.cornerRadius = profilePicture.frame.size.width / 2
-        profilePicture.clipsToBounds = true
         uploadedImage.isHidden = true
         postTextView.layer.borderWidth = 1
-        let url = Auth.auth().currentUser?.photoURL//(NSURL(string: UserDefaults.standard.object(forKey: "ImageData") as! String))! as URL
-        print(type(of: url))
-        if let data = try? Data(contentsOf: url!){
-            if let image = UIImage(data: data){
-                profilePicture.image = image
-            }
-        }
+//        let url = Auth.auth().currentUser?.photoURL//(NSURL(string: UserDefaults.standard.object(forKey: "ImageData") as! String))! as URL
+//        print(type(of: url))
+//        if let data = try? Data(contentsOf: url!){
+//            if let image = UIImage(data: data){
+//                profilePicture.image = image
+//            }
+//        }
         userNameLabel.text = UserDefaults.standard.object(forKey: "Username") as? String
         
         // Do any additional setup after loading the view.

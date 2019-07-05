@@ -76,22 +76,9 @@ class HomeScreenController: UIViewController,UITableViewDelegate,UITableViewData
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-//        if deleteValue == 0
-//        {
-//            db.collection("posts").getDocuments { (querySnapshots, err) in
-//                if let err = err {
-//                    print(err.localizedDescription)
-//                } else {
-//                    for document in querySnapshots!.documents {
-//                        //print("\(document.documentID) => \(document.data())")
-//                        if document.data()["postCaption"] as! String == self.itemArray[indexPath.row]
-//                        {
-//                            self.db.collection("posts").document(document.documentID).delete()
-//                        }
-//                    }
-//                }
-//            }
-//        }
+        let imageVC = self.storyboard?.instantiateViewController(withIdentifier: "ImageViewController") as! ImageViewController
+        imageVC.fetchedImage = itemArray[indexPath.row].postedImage
+        navigationController?.pushViewController(imageVC, animated: true)
     }
     func getData()
     {
@@ -113,6 +100,7 @@ class HomeScreenController: UIViewController,UITableViewDelegate,UITableViewData
                         }
                         if let data = data{
                             newItem.postedImage = UIImage(data: data)
+                            print(type(of: newItem.postedImage))
                         }
                         
                     }

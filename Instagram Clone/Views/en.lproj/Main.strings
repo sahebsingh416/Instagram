@@ -1,0 +1,27 @@
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "BlW-yp-WsJ"; */
+"BlW-yp-WsJ.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Add Video"; ObjectID = "L4v-eH-RBa"; */
+"L4v-eH-RBa.normalTitle" = "Add Video";
+
+/* Class = "UILabel"; text = "mattjohnson41"; ObjectID = "OXd-8L-1Tp"; */
+"OXd-8L-1Tp.text" = "mattjohnson41";
+
+/* Class = "UINavigationItem"; title = "Add Post"; ObjectID = "aYO-f7-fa5"; */
+"aYO-f7-fa5.title" = "Add Post";
+
+/* Class = "UIButton"; normalTitle = "Add Image"; ObjectID = "ioN-Wq-ZLS"; */
+"ioN-Wq-ZLS.normalTitle" = "Add Image";
+
+/* Class = "UILabel"; text = "mattjohnson41"; ObjectID = "oli-zi-FuD"; */
+"oli-zi-FuD.text" = "mattjohnson41";
+
+/* Class = "UINavigationItem"; title = "Instagram"; ObjectID = "qHU-5N-XSI"; */
+"qHU-5N-XSI.title" = "Instagram";
+
+/* Class = "UILabel"; text = "Let The Journey Begin!"; ObjectID = "xLP-7W-Nd7"; */
+"xLP-7W-Nd7.text" = "Let The Journey Begin!";
+
+/* Class = "UIBarButtonItem"; title = "Share"; ObjectID = "zGa-bf-6kY"; */
+"zGa-bf-6kY.title" = "Share";

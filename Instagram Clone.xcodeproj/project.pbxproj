@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		399F496BD4026FADA3DB9811 /* Pods_Instagram_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB56F5F0CF510FF18BF7EB2 /* Pods_Instagram_Clone.framework */; };
+		6F09A98922CF19D700C4120D /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09A98822CF19D700C4120D /* Reusable.swift */; };
+		6F09A98D22CF2D1000C4120D /* Rounded Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09A98C22CF2D1000C4120D /* Rounded Image.swift */; };
 		6F0A2F7F22CE010100D3570F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A2F7E22CE010100D3570F /* RatingView.swift */; };
 		6F0A2F8222CE23DE00D3570F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F0A2F8122CE23DE00D3570F /* GoogleService-Info.plist */; };
 		6F3F43F922C9F9B8000ECCBC /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3F43F822C9F9B8000ECCBC /* HomeScreenController.swift */; };
@@ -19,6 +21,7 @@
 		6F58B40122CCAFB2006FBEB7 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F58B40022CCAFB2006FBEB7 /* ProfileTableViewController.swift */; };
 		6F58B40422CCB0D0006FBEB7 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F58B40222CCB0D0006FBEB7 /* ProfileCell.swift */; };
 		6F58B40522CCB0D0006FBEB7 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F58B40322CCB0D0006FBEB7 /* ProfileCell.xib */; };
+		6F95A69722CF3C88002E08AC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F95A69622CF3C88002E08AC /* ImageViewController.swift */; };
 		6FDD8D2522C9CE7B00022095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD8D2422C9CE7B00022095 /* AppDelegate.swift */; };
 		6FDD8D2722C9CE7B00022095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD8D2622C9CE7B00022095 /* ViewController.swift */; };
 		6FDD8D2A22C9CE7B00022095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDD8D2822C9CE7B00022095 /* Main.storyboard */; };
@@ -29,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		0A2193CC3A3058BFC7626C19 /* Pods-Instagram Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram Clone.release.xcconfig"; path = "Target Support Files/Pods-Instagram Clone/Pods-Instagram Clone.release.xcconfig"; sourceTree = "<group>"; };
+		6F09A98822CF19D700C4120D /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		6F09A98C22CF2D1000C4120D /* Rounded Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rounded Image.swift"; sourceTree = "<group>"; };
 		6F0A2F7E22CE010100D3570F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		6F0A2F8122CE23DE00D3570F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6F3F43F822C9F9B8000ECCBC /* HomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenController.swift; sourceTree = "<group>"; };
@@ -40,6 +45,12 @@
 		6F58B40022CCAFB2006FBEB7 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		6F58B40222CCB0D0006FBEB7 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		6F58B40322CCB0D0006FBEB7 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		6F95A69622CF3C88002E08AC /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		6F95A69D22CF7981002E08AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		6F95A69E22CF7B9E002E08AC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		6F95A69F22CF7B9F002E08AC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6F95A6A022CF7E33002E08AC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		6F95A6A122CF7E34002E08AC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		6FDD8D2122C9CE7B00022095 /* Instagram Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDD8D2422C9CE7B00022095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FDD8D2622C9CE7B00022095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,11 +108,14 @@
 				6F3F43F822C9F9B8000ECCBC /* HomeScreenController.swift */,
 				6F0A2F7E22CE010100D3570F /* RatingView.swift */,
 				6F3F440122CA1941000ECCBC /* AddPostViewController.swift */,
+				6F09A98C22CF2D1000C4120D /* Rounded Image.swift */,
+				6F95A69622CF3C88002E08AC /* ImageViewController.swift */,
 				6F58B40022CCAFB2006FBEB7 /* ProfileTableViewController.swift */,
 				6F58B40222CCB0D0006FBEB7 /* ProfileCell.swift */,
 				6F58B40322CCB0D0006FBEB7 /* ProfileCell.xib */,
 				6F58B3FE22CCA682006FBEB7 /* ProfileNavigateViewController.swift */,
 				6FF7A1DD22CB4314002FD03F /* UpdateViewController.swift */,
+				6F09A98822CF19D700C4120D /* Reusable.swift */,
 				6F3F43FA22C9FD24000ECCBC /* CustomCell.swift */,
 				6F3F43FB22C9FD24000ECCBC /* CustomCell.xib */,
 			);
@@ -293,14 +307,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F09A98922CF19D700C4120D /* Reusable.swift in Sources */,
 				6F0A2F7F22CE010100D3570F /* RatingView.swift in Sources */,
 				6FDD8D2722C9CE7B00022095 /* ViewController.swift in Sources */,
 				6F3F43FF22CA140D000ECCBC /* Items.swift in Sources */,
 				6F58B40422CCB0D0006FBEB7 /* ProfileCell.swift in Sources */,
 				6F58B3FF22CCA682006FBEB7 /* ProfileNavigateViewController.swift in Sources */,
+				6F09A98D22CF2D1000C4120D /* Rounded Image.swift in Sources */,
 				6FDD8D2522C9CE7B00022095 /* AppDelegate.swift in Sources */,
 				6F3F43FC22C9FD24000ECCBC /* CustomCell.swift in Sources */,
 				6F58B40122CCAFB2006FBEB7 /* ProfileTableViewController.swift in Sources */,
+				6F95A69722CF3C88002E08AC /* ImageViewController.swift in Sources */,
 				6F3F440222CA1941000ECCBC /* AddPostViewController.swift in Sources */,
 				6F3F43F922C9F9B8000ECCBC /* HomeScreenController.swift in Sources */,
 				6FF7A1DE22CB4314002FD03F /* UpdateViewController.swift in Sources */,
@@ -314,6 +331,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				6FDD8D2922C9CE7B00022095 /* Base */,
+				6F95A69D22CF7981002E08AC /* en */,
+				6F95A69E22CF7B9E002E08AC /* fr */,
+				6F95A6A022CF7E33002E08AC /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -322,6 +342,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				6FDD8D2E22C9CE7C00022095 /* Base */,
+				6F95A69F22CF7B9F002E08AC /* fr */,
+				6F95A6A122CF7E34002E08AC /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -333,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -394,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -15,4 +15,5 @@ target 'Instagram Clone' do
     pod 'SideMenu'
     pod 'Fabric', '~> 1.10.2'
     pod 'Crashlytics', '~> 3.13.2'
+    pod 'SwiftLint'
 end

@@ -16,23 +16,15 @@ class ProfileTableViewController: UITableViewController{
     
     let iconArray = [#imageLiteral(resourceName: "Home"),#imageLiteral(resourceName: "share"),#imageLiteral(resourceName: "logout")]
     let menuArray = ["Home","Share","Logout"]
-
-    @IBOutlet weak var profileNameLabel: UILabel!
+    @IBOutlet weak var profilePicture: Rounded_Image!
     
-    @IBOutlet weak var profileButton: UIButton!
+    @IBOutlet weak var profileNameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         Fabric.sharedSDK().debug = true
         tableView.register(UINib(nibName: "ProfileCell", bundle: nil), forCellReuseIdentifier: "ProfileCell")
-        profileButton.layer.cornerRadius = profileButton.frame.size.width / 2
-        let url = Auth.auth().currentUser?.photoURL//(NSURL(string: UserDefaults.standard.object(forKey: "ImageData") as! String))! as URL
-        print(type(of: url))
-        if let data = try? Data(contentsOf: url!){
-            if let image = UIImage(data: data){
-                profileButton.setImage(image, for: .normal)
-            }
-        }
+//        profilePicture.image = Reusable.shared.getImage()
         profileNameLabel.text = Auth.auth().currentUser?.displayName
     }
 

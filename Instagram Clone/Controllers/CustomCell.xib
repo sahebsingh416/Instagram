@@ -22,7 +22,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ij-AS-StQ">
                         <rect key="frame" x="7" y="4" width="385" height="63"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile_Pic" translatesAutoresizingMaskIntoConstraints="NO" id="AUa-YU-vEw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile_Pic" translatesAutoresizingMaskIntoConstraints="NO" id="AUa-YU-vEw" customClass="Rounded_Image" customModule="Instagram_Clone" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="56" id="X27-gx-4AR"/>

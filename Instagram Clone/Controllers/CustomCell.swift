@@ -40,8 +40,6 @@ class CustomCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         likeImage.isHidden = true
-        profileImage.layer.cornerRadius = profileImage.frame.size.width / 2
-        profileImage.clipsToBounds = true
         // Configure the view for the selected state
     }
     

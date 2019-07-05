@@ -27,7 +27,8 @@ class ViewController: UIViewController,LoginButtonDelegate{
         gl = createGradientLayer()
         backgroundView.layer.addSublayer(gl)
         view.addSubview(loginButton)
-        getUserInformation()
+//        getUserInformation()
+        Reusable.shared.getUserInformation()
         loginButton.frame = CGRect(x: 16, y: 575, width: view.frame.width - 32, height: 50)
         let checkLogin : Bool = UserDefaults.standard.bool(forKey: "Logged In")
         if checkLogin {
@@ -64,20 +65,18 @@ class ViewController: UIViewController,LoginButtonDelegate{
         }
     }
     
-    func getUserInformation()
-    {
-        let user = Auth.auth().currentUser
-        if let user = user {
-            UserDefaults.standard.setValue(user.displayName!, forKey: "Username")
-            //append ?type=square in the url
-            let uid = user.uid
-            let url = "http://graph.facebook.com/\(uid)/picture?type=square"
-            UserDefaults.standard.set(url, forKey: "ImageData")
-//            let fetch = NSURL(string: url)
-//            UserDefaults.standard.set(fetch, forKey: "testImage")
-            print(UserDefaults.standard.object(forKey: "ImageData"))
-        }
-    }
+//    func getUserInformation()
+//    {
+//        let user = Auth.auth().currentUser
+//        print(type(of: user))
+//        if let user = user {
+//            UserDefaults.standard.setValue(user.displayName!, forKey: "Username")
+//            //append ?type=square in the url
+//            let uid = user.uid
+//            let url = "http://graph.facebook.com/\(uid)/picture?type=square"
+//            UserDefaults.standard.set(url, forKey: "ImageData")
+//        }
+//    }
     
     func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
         UserDefaults.standard.set(false, forKey: "Logged In")
