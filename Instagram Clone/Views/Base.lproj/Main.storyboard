@@ -80,7 +80,8 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="P73-Q0-R0t" customClass="RatingView" customModule="Instagram_Clone" customModuleProvider="target">
                                     <rect key="frame" x="8" y="62" width="232" height="44"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="44" id="Qok-oh-bOe"/>
+                                        <constraint firstAttribute="height" constant="44" id="SON-A4-zlR"/>
+                                        <constraint firstAttribute="width" constant="232" id="jXS-AE-m8G"/>
                                     </constraints>
                                 </stackView>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vcN-9g-vrk" customClass="Rounded_Image" customModule="Instagram_Clone" customModuleProvider="target">
@@ -102,16 +103,14 @@
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
-                                <constraint firstItem="P73-Q0-R0t" firstAttribute="leading" secondItem="6gh-dY-Iib" secondAttribute="leading" constant="8" id="5fH-1W-keH"/>
-                                <constraint firstAttribute="trailing" secondItem="P73-Q0-R0t" secondAttribute="trailing" constant="135" id="8iJ-lb-ERx"/>
                                 <constraint firstItem="vcN-9g-vrk" firstAttribute="leading" secondItem="6gh-dY-Iib" secondAttribute="leading" constant="8" id="CIs-aJ-qzJ"/>
+                                <constraint firstItem="P73-Q0-R0t" firstAttribute="top" secondItem="vcN-9g-vrk" secondAttribute="bottom" constant="4" id="MSf-us-vpJ"/>
                                 <constraint firstItem="oli-zi-FuD" firstAttribute="leading" secondItem="vcN-9g-vrk" secondAttribute="trailing" constant="8" id="OfG-0g-Xf3"/>
+                                <constraint firstAttribute="bottom" secondItem="P73-Q0-R0t" secondAttribute="bottom" constant="8" id="Pez-hM-5bW"/>
                                 <constraint firstItem="oli-zi-FuD" firstAttribute="top" secondItem="6gh-dY-Iib" secondAttribute="top" constant="21" id="SN0-Ia-QqL"/>
                                 <constraint firstItem="vcN-9g-vrk" firstAttribute="top" secondItem="6gh-dY-Iib" secondAttribute="top" constant="8" id="bf7-tT-IrM"/>
-                                <constraint firstItem="P73-Q0-R0t" firstAttribute="top" secondItem="oli-zi-FuD" secondAttribute="bottom" constant="17" id="c0E-34-aF4"/>
                                 <constraint firstAttribute="trailing" secondItem="oli-zi-FuD" secondAttribute="trailing" constant="8" id="eJZ-98-o4h"/>
-                                <constraint firstItem="P73-Q0-R0t" firstAttribute="top" secondItem="vcN-9g-vrk" secondAttribute="bottom" constant="4" id="eYW-ek-7S0"/>
-                                <constraint firstAttribute="bottom" secondItem="P73-Q0-R0t" secondAttribute="bottom" constant="8" id="paW-5y-tDj"/>
+                                <constraint firstItem="P73-Q0-R0t" firstAttribute="leading" secondItem="6gh-dY-Iib" secondAttribute="leading" constant="8" id="re7-S8-ySN"/>
                             </constraints>
                         </view>
                         <prototypes>
